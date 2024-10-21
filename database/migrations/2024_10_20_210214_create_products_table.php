@@ -18,7 +18,7 @@ return new class extends Migration
             $table->text('description')->nullable();
             $table->string('image')->nullable();
             $table->integer('qty')->nullable();
-            $table->string(column: 'sku')->nullable();
+            $table->string('sku')->nullable();
             $table->timestamps();
         });
     }
